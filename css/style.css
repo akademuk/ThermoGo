@@ -550,7 +550,7 @@ body.menu-open {
   font-weight: 600;
   line-height: 1.2;
   display: flex;
-  min-height: 106px;
+  height: 106px;
   padding: 29px 8px;
   align-items: center;
   border-radius: 12px;
