@@ -374,6 +374,7 @@ body.menu-open {
 .introducing__pagination .swiper-pagination-bullet {
   width: 16px;
   height: 16px;
+  margin: 0 !important;
   background: rgba(114, 122, 99, 0.53);
   transition: all 0.4s;
 }
