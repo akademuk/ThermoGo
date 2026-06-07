@@ -819,9 +819,7 @@ body.menu-open {
 }
 
 .about {
-  padding: 49px 20px;
-  background: #fff;
-}
+  padding: 49px 20px;}
 
 .about .container {
   display: flex;
@@ -1338,7 +1336,6 @@ body.menu-open {
 
   .what {
     padding-top: 55px;
-    background: #fff;
   }
 
   .what .container {
