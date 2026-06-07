@@ -1282,6 +1282,7 @@ body.menu-open {
 
   .specifications__left {
     width: calc(50% - 26px);
+    gap: 32px;
   }
 
   .specifications__right {
