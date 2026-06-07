@@ -562,7 +562,7 @@ body.menu-open {
 .specifications__left-body-col--1 .specifications__left-body-col-item span{
   display: none;
   width: 61px;
-  min-height: 106px;
+  height: 106px;
   padding: 29px 16px;
   justify-content: center;
   align-items: center;
@@ -578,11 +578,10 @@ body.menu-open {
 .specifications__left-body-col--2 .specifications__left-body-col-item,
 .specifications__left-body-col--3 .specifications__left-body-col-item {
   display: flex;
-  min-height: 106px;
+  height: 106px;
   padding: 29px 16px;
   justify-content: center;
   align-items: center;
-  flex: 1 0 0;
   border-radius: 12px;
   background: #FFF;
 }
@@ -703,6 +702,7 @@ body.menu-open {
 
 .what {
   padding-top: 30px;
+  background: #fff;
 }
 
 .what .container{
@@ -819,7 +819,10 @@ body.menu-open {
 }
 
 .about {
-  padding: 49px 20px;}
+  padding: 49px 20px;
+  background: #fff;
+}
+
 
 .about .container {
   display: flex;
