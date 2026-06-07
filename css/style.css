@@ -1182,8 +1182,7 @@ body.menu-open {
 
   .header__lang-link {
     width: 68px;
-    min-height: 36px;
-    padding: 5px 8px;
+    padding: 7px 8px;
     border-radius: 33px;
     background: #FFF;
     display: flex;
