@@ -5,6 +5,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  outline: none;
 }
 
 html {
@@ -740,7 +741,7 @@ body.menu-open {
   inset: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: 0;
 }
 
 .what__item-img-mobile {
@@ -766,6 +767,8 @@ body.menu-open {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  position: relative;
+  z-index: 2;
 }
 
 .what__item-title {
@@ -1168,7 +1171,7 @@ body.menu-open {
 
   .header__lang-link {
     width: 68px;
-    height: 36px;
+    min-height: 36px;
     padding: 5px 8px;
     border-radius: 33px;
     background: #FFF;
@@ -1325,6 +1328,7 @@ body.menu-open {
 
   .what {
     padding-top: 55px;
+    background: #fff;
   }
 
   .what .container {
